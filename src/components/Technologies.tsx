@@ -12,7 +12,7 @@ import {
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
-const iconVariants = (duration) => ({
+const iconVariants = (duration: number) => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],
@@ -20,7 +20,7 @@ const iconVariants = (duration) => ({
       duration: duration,
       ease: "linear",
       repeat: Infinity,
-      repeatType: "reverse",
+      repeatType: "reverse" as "reverse" | "loop" | "mirror",
     },
   },
 });
