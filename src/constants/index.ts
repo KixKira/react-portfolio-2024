@@ -125,3 +125,48 @@ export const CONTACT = {
   phoneWS: "584243320565",
   email: "kixkira1@gmail.com",
 };
+
+export const PLANS = [
+  {
+    title: "Paquete Básico",
+    desc: [
+      "Diseño web con plantilla personalizada y opciones de diseño básicas para crear una presencia online profesional y atractiva",
+      "Hasta 5 páginas",
+      "Funcionalidades esenciales",
+      "2 rondas de revisiones",
+      "Tiempo de entrega estimado: 2-3 semanas",
+      "Soporte técnico básico por correo electrónico",
+    ],
+    price: 200,
+    disc: 150,
+  },
+  {
+    title: "Paquete Estándar",
+    desc: [
+      "Diseño web personalizado con mayor flexibilidad en la elección de elementos visuales y creación de gráficos básicos para una web única y funcional",
+      "Hasta 10 páginas",
+      "Funcionalidades adicionales",
+      "3 rondas de revisiones",
+      "Tiempo de entrega estimado: 3-4 semanas",
+      "Soporte técnico intermedio por correo electrónico y chat",
+    ],
+    price: 500,
+    disc: 400,
+  },
+  {
+    title: "Paquete Premium",
+    desc: [
+      "Diseño web a medida, creado desde cero para reflejar la identidad de tu marca y ofrecer una experiencia de usuario excepcional. Incluye creación de identidad visual completa y diseño de elementos gráficos únicos",
+      "Páginas ilimitadas",
+      "Funcionalidades avanzadas",
+      "Hosting y dominio por un año",
+      "5 rondas de revisiones",
+      "Tiempo de entrega estimado: 4-6 semanas",
+      "Soporte técnico prioritario por correo electrónico, chat y teléfono",
+      "Optimización SEO completa",
+      "Campaña básica de marketing digital",
+    ],
+    price: 1000,
+    disc: 800,
+  },
+];
