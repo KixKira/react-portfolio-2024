@@ -128,7 +128,7 @@ export const CONTACT = {
 
 export const PLANS = [
   {
-    title: "Paquete Básico",
+    title: "KixKira Starter Kit",
     desc: [
       "Diseño web con plantilla personalizada y opciones de diseño básicas para crear una presencia online profesional y atractiva",
       "Hasta 5 páginas",
@@ -141,7 +141,7 @@ export const PLANS = [
     disc: 150,
   },
   {
-    title: "Paquete Estándar",
+    title: "KixKira Pro Core",
     desc: [
       "Diseño web personalizado con mayor flexibilidad en la elección de elementos visuales y creación de gráficos básicos para una web única y funcional",
       "Hasta 10 páginas",
@@ -154,7 +154,7 @@ export const PLANS = [
     disc: 400,
   },
   {
-    title: "Paquete Premium",
+    title: "KixKira Premium Suite",
     desc: [
       "Diseño web a medida, creado desde cero para reflejar la identidad de tu marca y ofrecer una experiencia de usuario excepcional. Incluye creación de identidad visual completa y diseño de elementos gráficos únicos",
       "Páginas ilimitadas",
