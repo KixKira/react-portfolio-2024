@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaSquareInstagram,
   FaSquareXTwitter,
+  FaWhatsapp,
 } from "react-icons/fa6";
 import { PLANS } from "../constants";
 import Navbar from "./Navbar";
@@ -64,9 +65,10 @@ const LandingPage = () => {
                 href={`https://wa.me/+584243320565?text=Hola%20KixKira.%20Estoy%20interesado%20en%20el%20plan%20*${plan.title}*`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded flex justify-center"
               >
-                Contactar por WhatsApp
+                <FaWhatsapp className="h-5 w-5 mr-2" />
+                Contáctame
               </a>
             </motion.div>
           ))}
