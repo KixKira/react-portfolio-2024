@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PROJECTS } from "../constants/index";
 import { motion } from "framer-motion";
 
@@ -45,6 +46,15 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <div className="mt-4">
+                <Link
+                  to={project.url}
+                  className="bg-[#070605] text-[#ff0000] rounded-lg p-2"
+                  target="_blank"
+                >
+                  Ver sitio del proyecto
+                </Link>
+              </div>
             </motion.div>
           </div>
         ))}

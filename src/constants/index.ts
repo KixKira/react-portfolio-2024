@@ -11,7 +11,14 @@ export const ABOUT_TEXT = `Soy un desarrollador front-end especializado en la cr
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
+    role: "Desarrollador Front-End",
+    company: "Restoration Control",
+    description: `Desarrollé módulos financieros interactivos utilizando Next.js y Flowbite-React, mejorando la experiencia del usuario y la eficiencia de los procesos. Optimicé módulos existentes y creé nuevos tableros financieros para una mejor visualización de datos. Colaboré estrechamente con el equipo de diseño para garantizar una interfaz de usuario intuitiva y consistente.`,
+    technologies: ["Javascript", "React.js", "Next.js"],
+  },
+  {
+    year: "2024 - 2024",
     role: "Desarrollador Full-Stack",
     company: "Sisprot Global Fiber",
     description: `Creación y actualización de sistema interno empresarial, utilizando frameworks como React y Next.js, base de datos Supabase.`,
@@ -30,13 +37,6 @@ export const EXPERIENCES = [
     company: "Chicks Gold, Inc.",
     description: `Diseño y desarrollo de componentes para la bolsa, asegurando una funcionalidad y rendimiento óptimos. Creación y mantenimiento de un blog de empresa, proporcionando contenidos relevantes y actualizados para los usuarios. Implementación de componentes en diferentes áreas del producto para mejorar la experiencia del usuario.`,
     technologies: ["Aurelia", "C#"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Soporte IT",
-    company: "Banco Itaú",
-    description: `Proporcionó asistencia técnica a las sucursales bancarias, garantizando el funcionamiento continuo de los sistemas. Solucionó problemas operativos en las aplicaciones utilizadas, garantizando la eficiencia operativa del banco. Dirigió la migración de los correos electrónicos corporativos, garantizando una transición fluida y sin interrupciones. Realizó la instalación de aplicaciones según el perfil del usuario, personalizando el entorno para cada empleado. Implementó y configuró la imagen corporativa en los ordenadores corporativos, manteniendo la coherencia y la identidad visual de la empresa.`,
-    technologies: ["Mesa de Ayuda"],
   },
   {
     year: "2020 - 2021",
@@ -59,13 +59,6 @@ export const EXPERIENCES = [
     description: `Realizamos mejoras significativas en la aplicación web, optimizando su rendimiento y funcionalidad. Diseñamos y desarrollamos nuevos componentes para la aplicación, mejorando la experiencia del usuario y añadiendo valor al producto.`,
     technologies: ["React.js", "Strapi"],
   },
-  {
-    year: "2017 - 2019",
-    role: "Soporte IT",
-    company: "Banco BCI",
-    description: `Proporcionó asistencia técnica completa, garantizando el funcionamiento continuo de los sistemas informáticos. Resolvió eficazmente los problemas de rendimiento de las aplicaciones, minimizando el tiempo de inactividad y maximizando la productividad. Dirigió con éxito la migración de los correos electrónicos corporativos, garantizando una transición fluida y sin problemas. Instaló aplicaciones según el perfil del usuario, personalizando los entornos de trabajo para satisfacer las necesidades individuales de cada empleado.`,
-    technologies: ["Mesa de Ayuda"],
-  },
 ];
 
 export const PROJECTS = [
@@ -81,6 +74,7 @@ export const PROJECTS = [
       "MailChimp",
       "MySQL",
     ],
+    url: "https://soundadvisors.cl",
   },
   {
     title: "Agencia Creativa",
@@ -88,6 +82,7 @@ export const PROJECTS = [
     description:
       "Hice esta página en WordPress, con la ayuda del constructor de temas Flatsome.",
     technologies: ["WordPress", "MySQL"],
+    url: "https://simultaneoestudio.com/",
   },
   {
     title: "Agencia Creativa",
@@ -95,6 +90,7 @@ export const PROJECTS = [
     description:
       "Landing page realizada en HTML y CSS, con funcionalidades JS, para una agencia creativa.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    url: "https://studio23.netlify.app/",
   },
   {
     title: "Generador de Usuarios Aleatorios",
@@ -102,6 +98,7 @@ export const PROJECTS = [
     description:
       "Generador de usuarios aleatorios utilizando la API de datos aleatorios.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://randomusergene.netlify.app/",
   },
   {
     title: "Operaciones Logísticas",
@@ -109,6 +106,7 @@ export const PROJECTS = [
     description:
       "Creación de una página web para una empresa de centros logísticos. Realizada en WordPress con plugins para cambiar idiomas y contacto.",
     technologies: ["WordPress", "RankMath SEO", "Weglot", "MySQL"],
+    url: "https://lpsoperaciones.com/",
   },
   {
     title: "Plataforma de Intercambio",
@@ -116,6 +114,7 @@ export const PROJECTS = [
     description:
       "Diseño y desarrollo de componentes para la bolsa, garantizando una funcionalidad y un rendimiento óptimos. Creación y mantenimiento de un blog de empresa, proporcionando contenidos relevantes y actualizados para los usuarios. Implementación de componentes en diferentes áreas del producto para mejorar la experiencia del usuario.",
     technologies: ["Aurelia", "reCAPTCHA", "Intercom"],
+    url: "https://chicksx.com/",
   },
 ];
 
